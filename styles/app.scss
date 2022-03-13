@@ -108,7 +108,15 @@ body {
 
     &_item {
       height: 2.1875rem;
-      margin-top: 1rem;
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h3,
+      svg {
+        margin-bottom: 0.9375rem;
+      }
     }
   }
 }

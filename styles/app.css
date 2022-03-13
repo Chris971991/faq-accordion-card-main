@@ -105,7 +105,21 @@ body {
 
 .hero_info_item {
   height: 2.1875rem;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero_info_item h3,
+.hero_info_item svg {
+  margin-bottom: 0.9375rem;
 }
 
 .divider {
